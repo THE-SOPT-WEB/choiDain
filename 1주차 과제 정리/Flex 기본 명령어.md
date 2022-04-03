@@ -29,6 +29,7 @@
 : Flex 요소의 순서를 지정 <br>
 (..., -1, 0 (default), 1, ...)
 <br>
+<br>
 
 ## ✏️ align-self
 : 지정된 align-items 값을 무시하고 Flex 요소를 세로선 상에서 정렬 <br>
@@ -48,6 +49,7 @@
 
 ## ✏️ flex-flow
 : flex-direction, flex-wrap을 간략히 한 속성
+<br>
 
 ## ✏️ align-content
 : 세로선 상에 여분의 공간이 있는 경우 Flex 컨테이너 사이의 간격을 조절
