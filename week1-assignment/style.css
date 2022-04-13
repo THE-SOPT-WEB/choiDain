@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+}
+
+aside.sideBar {
+  flex: 1;
+}
+
+section.burger {
+  flex: 3;
+}
+
+aside.cart {
+  flex: 1.5;
+}
+
+section.burger {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+
+article.burger__card {
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+
+  width: 45%;
+}
+
+article.burger__card > img {
+  width: 150px;
+}
