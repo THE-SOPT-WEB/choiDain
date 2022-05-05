@@ -40,7 +40,7 @@ export const FlexBox = styled.div`
   .name {
     position: absolute;
     z-index: 3;
-    color: #000;
+    color: #fff;
     bottom: 10%;
     font-size: 90px;
     left: 50%;
