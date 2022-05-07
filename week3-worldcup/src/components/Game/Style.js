@@ -37,6 +37,14 @@ export const FlexBox = styled.div`
     opacity: 0.8;
   }
 
+  .vs-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 30px;
+    padding-bottom: 10px;
+  }
+
   .name {
     position: absolute;
     z-index: 3;

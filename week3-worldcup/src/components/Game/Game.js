@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FlexBox } from './Style';
+import vs from '../../Img/vs.png';
+import crown from '../../Img/crown.png';
 
 const items = [
   {
@@ -55,11 +57,16 @@ const Game = () => {
         return (
           <div className="flex-1" key={item.name} onClick={clickHandler(item)}>
             <img className="handsome-img" src={item.src} alt="handsome" />
+          
             <div className="name">{item.name}</div>
           </div>
         );
       })}
-    </FlexBox>
+      {/* { winners.length === 0 ?
+        <img className="vs-img" src={vs} alt="vs" />
+        : null
+      } */}
+      </FlexBox>
   );
 };
 
